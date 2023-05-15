@@ -83,11 +83,11 @@ There are no tests for this project at the moment.
 
 ## Walkthrough video
 
-See the video ![here](https://drive.google.com/file/d/1mFvtZJV3T9gKkVtxRkL2cDOP_Qu8-34Y/view)
+See the video [here](https://drive.google.com/file/d/1mFvtZJV3T9gKkVtxRkL2cDOP_Qu8-34Y/view)
 
 ## Questions
 
-My ![Github](https://github.com/Fer-117)
+My [Github](https://github.com/Fer-117)
 
 Feel free to reach out to the following email with any questions or suggestions.
 fsg11497@gmail.com
