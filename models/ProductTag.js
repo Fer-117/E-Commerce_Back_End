@@ -29,6 +29,30 @@ ProductTag.init(
     },
   },
   {
+    hooks: {
+      beforeDestroy: async (productTag, options) => {
+        // delete all product tags associated with the deleted product or tag
+        const deletedProductId = productTag.product_id;
+        const deletedTagId = productTag.tag_id;
+
+        if (deletedProductId) {
+          await ProductTag.destroy({
+            where: {
+              product_id: deletedProductId,
+            },
+            ...options,
+          });
+        } else if (deletedTagId) {
+          await ProductTag.destroy({
+            where: {
+              tag_id: deletedTagId,
+            },
+            ...options,
+          });
+        }
+      },
+    },
+
     sequelize,
     timestamps: false,
     freezeTableName: true,
