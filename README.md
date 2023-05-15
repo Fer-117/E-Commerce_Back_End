@@ -12,6 +12,7 @@
   - [MIT License](#mit-license)
   - [Contributing](#contributing)
   - [Tests](#tests)
+  - [Walkthrough video](#walkthrough-video)
   - [Questions](#questions)
 
 ## Description
@@ -79,6 +80,10 @@ There are no guidelines for contributing at the moment but feel free to reach ou
 ## Tests
 
 There are no tests for this project at the moment.
+
+## Walkthrough video
+
+See the video [here](#https://drive.google.com/file/d/1mFvtZJV3T9gKkVtxRkL2cDOP_Qu8-34Y/view)
 
 ## Questions
 
